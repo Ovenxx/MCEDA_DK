@@ -1,0 +1,16 @@
+RCdp0501
+
+CUSTOMER  VEHICLE
+NUMBER	  NUMBER     CAPACITY
+   5        25       200
+
+CUSTOMER
+CUST NO.  XCOORD.   YCOORD.   DDEMAND   PDEMAND   READY TIME  DUE DATE   SERVICE TIME
+
+    0      40         50          0          0          0        240          0
+   46      18         80         10         30        113        143         10
+   56      50         35         19          0        130        160         10
+   58      15         10         20          9        152        182         10
+   59      10         20         19         20         42         72         10
+   95      56         37          6         10         34         64         10
+
