@@ -34,6 +34,7 @@ This paper formulates a multi-objective time-space-dependent green VRP with pick
 ```bash
 git clone https://github.com/Ovenxx/MCEDA_DK.git
 cd MCEDA_DK
+```
 
 ### 2. Reproduce benchmark comparison results
 1) Open MATLAB and set the Current Folder to the Benchmark experiments/ directory inside the cloned repository.
