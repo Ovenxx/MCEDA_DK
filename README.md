@@ -1,10 +1,13 @@
-**"Multi-Consensus Based Estimation of Distribution Algorithm with Domain Knowledge for Multi-Objective Green Vehicle Routing"**  
+**Multi-Consensus Based Estimation of Distribution Algorithm with Domain Knowledge for Multi-Objective Green Vehicle Routing**  
 
 ## Overview
-This paper formulates a multi-objective time-space-dependent green VRP with pickup-delivery and time window (MO-TSD-GVRPPDTW), which simultaneously incorporates pickup demands, delivery demands, and time-space dependences. To solve this problem, a multi-consensus-based estimation of distribution algorithm embedded with domain knowledge (MCEDA-DK) is proposed.   
+This paper formulates a multi-objective time-space-dependent green VRP with pickup-delivery and time window (MO-TSD-GVRPPDTW), which simultaneously incorporates pickup demands, delivery demands, and time-space dependences. To solve this problem, a multi-consensus-based estimation of distribution algorithm embedded with domain knowledge (MCEDA-DK) is proposed.  
+  
 It comprises three key components: 1) a domain knowledge embedding (DKE) method; 2) a multi-consensus evolution (MCE) strategy; and 3) a multi-scale neighborhood search (MNS) strategy.   
+  
 The DKE method constructs a time-space compatibility matrix to prune the search space, improving both initialization quality and evolution efficiency.   
 The MCE strategy iteratively updates the population’s consensus on multiple conflicting objectives to indicate diversified non-dominated combinations, guiding subsequent searches.   
+  
 The MNS strategy stimulates the population to search both large- and small-scale neighborhoods, enabling persistent exploration of better local regions and identification of local non-dominated solutions, which effectively balances diversified and intensified searches.
 
 ## Repository Structure  
