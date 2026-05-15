@@ -37,18 +37,21 @@ cd MCEDA_DK
 ```
 
 ### 2. Reproduce benchmark comparison results
-1) Open MATLAB and set the Current Folder to the Benchmark experiments/ directory inside the cloned repository.
+1) Open MATLAB and set the Current Folder to the Benchmark experiments/ directory.
 
 2) Run the experiment script to generate the non-dominated solution sets for MCEDA-DK:
 ```matlab
 >> Experiment_script_100
+```
 
 3) Compute the hypervolume (HV) values and obtain the rHV variable:
 ```matlab
 >> HV_comparison
+```
 
 4) Print the comparison result:
 ```matlab
 >> fprintf('AVERAGED HV VALUES OBTAINED BY MCEDA-DK, MOLS, AND MOMA ON THE WC INSTANCE SET.\n');
 >> disp(rHV);
+```
 
