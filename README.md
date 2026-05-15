@@ -6,7 +6,7 @@ This paper formulates a multi-objective time-space-dependent green VRP with pick
 
 ## Repository Structure
 .
-├── Benchmark experiments/ # Experiments on Solomon benchmark instances
+├── Benchmark experiments/ # Experiments on Solomon benchmark instances  
 │ ├── MCEDA_DK.m # Core MCEDA-DK algorithm implementation
 │ ├── Experiment_script_100.m # Main script for 100-customer instances
 │ ├── HV_comparison.m # Hypervolume computation and comparison
