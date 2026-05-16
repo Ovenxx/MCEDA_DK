@@ -6,7 +6,7 @@ This paper formulates a multi-objective time-space-dependent green VRP with pick
 It comprises three key components: 1) a domain knowledge embedding (DKE) method; 2) a multi-consensus evolution (MCE) strategy; and 3) a multi-scale neighborhood search (MNS) strategy.   
   
 The DKE method constructs a time-space compatibility matrix to prune the search space, improving both initialization quality and evolution efficiency.   
-The MCE strategy iteratively updates the population’s consensus on multiple conflicting objectives to indicate diversified non-dominated combinations, guiding subsequent searches.   
+The MCE strategy iteratively updates the population’s consensus on multiple conflicting objectives to indicate diversified non-dominated combinations, guiding subsequent searches.  
   
 The MNS strategy stimulates the population to search both large- and small-scale neighborhoods, enabling persistent exploration of better local regions and identification of local non-dominated solutions, which effectively balances diversified and intensified searches.
 
