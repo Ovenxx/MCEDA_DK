@@ -42,12 +42,12 @@ cd MCEDA_DK
 ```
 
 ### 2. Reproduce benchmark comparison results
-1) Open MATLAB and set the Current Folder to the Benchmark experiments/ directory.
+1) Open MATLAB and set the current folder to the Benchmark experiments/ directory.
 ```matlab
 >> cd('Benchmark experiments')
 ```
 
-2) Run the experiment script to generate the non-dominated solution sets for MCEDA-DK:
+2) Run the experiment script to generate the non-dominated solution sets:
 ```matlab
 >> Experiment_script_100
 ```
