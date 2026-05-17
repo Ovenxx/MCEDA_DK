@@ -12,22 +12,30 @@ for x=1:6
     MD_DKE_MOMA=nd_fitness;
     for I=1:5
         s=[];
-        for n=1:50
+        N1 = length(MCEDA_DKE_fitness(I,:));
+        for n=1:N1
             MCEDA_DKE_data(n).PF=MCEDA_DKE_fitness(I,n).data(2000).PF;
             s=[s;MCEDA_DKE_data(n).PF];
         end
-        for n=1:20
+        N2 = length(MD_DKE_MOLS(I,:));
+        for n=1:N2
             MD_MOLS_data(n).PF=MD_DKE_MOLS(I,n).data(2000).PF;
+            s=[s;MD_MOLS_data(n).PF];
+        end
+        N3 = length(MD_DKE_MOMA(I,:));
+        for n=1:N3
             MD_MOMA_data(n).PF=MD_DKE_MOMA(I,n).data(2000).PF;
-            s=[s;MD_MOLS_data(n).PF;MD_MOMA_data(n).PF];
+            s=[s;MD_MOMA_data(n).PF];
         end
         r=[1.5*max(s(:,1)),1.5*max(s(:,2))];
-        for n=1:50
-            hv1(I,n)=hypervolume(MCEDA_DKE_data(n).PF,r,10^4);
+        for n=1:N1
+            hv1(I,n)=hypervolume(MCEDA_DKE_data(n).PF,r,10^5);
         end
-        for n=1:20
-            hv2(I,n)=hypervolume(MD_MOLS_data(n).PF,r,10^4);
-            hv3(I,n)=hypervolume(MD_MOMA_data(n).PF,r,10^4);
+        for n=1:N2
+            hv2(I,n)=hypervolume(MD_MOLS_data(n).PF,r,10^5);
+        end
+        for n=1:N3
+            hv3(I,n)=hypervolume(MD_MOMA_data(n).PF,r,10^5);
         end
         HV1(x,I)=mean(hv1(I,:));
         HV2(x,I)=mean(hv2(I,:));

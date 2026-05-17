@@ -3,7 +3,7 @@ clc
 results=[];
 k=5;
 G=2000;
-rep=3;
+rep=50;
 popN=40;
 option2='soft';
 %------------JD2001-------------
