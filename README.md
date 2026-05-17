@@ -18,11 +18,16 @@ The MNS strategy stimulates the population to search both large- and small-scale
 ├── hypervolume.m                        # Hypervolume calculation utility  
 ├── cdp101_data.mat                      # Problem instance data (100 customers)  
 ├── cdp201_data.mat  
+├── rdp101_data.mat  
+├── rdp201_data.mat  
+├── rcdp101_data.mat  
+├── rcdp201_data.mat  
 ├── benchmark_Solomon/                   # Solomon benchmark datasets  
 ├── MCEDA_DK_data/                       # Results of MCEDA-DK  
 ├── MD_MOLS_data/                        # Results of comparison algorithm MD-MOLS  
 └── MD_MOMA_data/                        # Results of comparison algorithm MD-MOMA  
 ### JD Logistics experiments/  
+├── MCEDA_DK.m                           # Core MCEDA-DK algorithm implementation  
 ├── Experiment_script_200.m                # Script for 200-customer instances  
 ├── Experiment_script_400.m                # Script for 400-customer instances  
 ├── JD_2001_data.mat                       # Logistics data (200 customers)  
@@ -31,6 +36,8 @@ The MNS strategy stimulates the population to search both large- and small-scale
 ├── JD_2004_data.mat  
 ├── JD_4001_data.mat                       # Logistics data (400 customers)  
 ├── JD_4002_data.mat  
+├── JD_4003_data.mat  
+├── JD_4004_data.mat  
 └── Liu_Tang_Yao/                          # JD Logistics datasets  
 
 ## Quick Start: Reproducing the Results
@@ -52,7 +59,7 @@ cd MCEDA_DK
 >> Experiment_script_100
 ```
 
-3) Compute the hypervolume (HV) values and obtain the rHV variable:
+3) Compute the hypervolume (HV) values and obtain the rHV variable (Its calculation employs Monte Carlo sampling):
 ```matlab
 >> HV_comparison
 ```
