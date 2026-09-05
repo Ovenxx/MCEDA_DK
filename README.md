@@ -18,8 +18,8 @@ The MNS strategy stimulates the population to search both large- and small-scale
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Ovenxx/Multi-objective-GVRP.git
-cd Multi-objective-GVRP
+git clone https://github.com/Ovenxx/multi-objective-gvrp.git
+cd multi-objective-gvrp
 ```
 
 ### 2. Run the algorithm
