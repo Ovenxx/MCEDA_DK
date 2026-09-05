@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite the paper below."
+title: "Multi Consensus Based Estimation of Distribution Algorithm with Domain Knowledge for Multi Objective Green Vehicle Routing"
+authors:
+  - family-names: Wang
+    given-names: Wei
+    orcid: https://orcid.org/0000-0002-9735-0351
+  - family-names: Shen
+    given-names: Yindong
+    orcid: https://orcid.org/0000-0001-8010-5889
+  - family-names: Li
+    given-names: Yang
+  - family-names: Fan
+    given-names: Yibao
+journal: "IEEE Transactions on Evolutionary Computation"
+year: 2026
+doi: 10.1109/TEVC.2026.3704658
+url: https://doi.org/10.1109/TEVC.2026.3704658
+keywords:
+  - green vehicle routing problem
+  - multi-objective optimization
+  - estimation of distribution algorithm
+  - time-space-dependent travel
+  - pickup and delivery
+  - domain knowledge
