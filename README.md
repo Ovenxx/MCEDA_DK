@@ -22,7 +22,7 @@ git clone https://github.com/Ovenxx/Multi-objective-GVRP.git
 cd Multi-objective-GVRP
 ```
 
-### 2. Reproduce benchmark comparison results
+### 2. Run the algorithm
 1) Open MATLAB and set the current folder to the Benchmark experiments/ directory.
 ```matlab
 >> cd('Benchmark experiments')
